@@ -1,6 +1,3 @@
-x = int(input("wpisz 1 liczbe: "))
-a = int(x)
-y = input("wpisz 2 liczbe: ")
-b = int(y)
-c = a + b
-print(c)
+x = int(input())
+y = int(input())
+print(x + y)
