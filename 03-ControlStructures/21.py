@@ -1,3 +1,3 @@
-uniwersytet = ("Uniwersytet Ekonomiczny w Krakowie")
+uniwersytet = "UEK w Krakowie"
 for x in uniwersytet:
-  print("", x, end=" ")
+  print(x, end=" ")
