@@ -1,19 +1,21 @@
-amount = int(input("Enter the amount in PLN: "))
-print("The amount of PLN", amount, "in coins:\n")
+five = 0
+two = 0
+one = 0
 
-coinsfive = 0
-coinstwo = 0
-coinsone = 0
-
+amount = int(input(f"Enter the amount in PLN: "))
+print(f"The amount of PLN {amount} in coins:")
 while amount != 0:
-    if amount >= 5:
-        amount -= 5
-        coinsfive += 1
+    if amount >=5:
+        five = amount//5
+        amount = amount%5
+        
+    elif amount > 1:
+        two = amount//2
+        amount = amount%2
     else:
-        if a
+        one = amount//1
+        amount = amount%1
 
-
-
-print("5 zł - ", coinsfive)
-print("2 zł - ", coinstwo)
-print("1 zł - ", coinsone)
+print(f"5 zł - {five}")
+print(f"2 zł - {two}")
+print(f"1 zł - {one}")
