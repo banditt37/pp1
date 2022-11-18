@@ -1,6 +1,3 @@
-from cgi import print_form
-
-
 n1=5
 n2=1
 n3=8
