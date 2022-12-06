@@ -1,5 +1,6 @@
-import aaa
+def read_number():
+    x = int(input('Enter first number:'))
+    y = int(input('Enter second number:'))
+    return(x+y)
 
-a = aaa.read_number()
-b = aaa.read_number()
-print("Print of your number is ", a + b)
+print(read_number())
