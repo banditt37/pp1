@@ -4,7 +4,7 @@ array3 = [1, 3, 5, 6, 4, 2, 8, 7, 10, 9]
 
 def bubblesort(array):
     print(array)
-    for i in range(len(array)):
+    for i in range(0, len(array)-1):
         for j in range(0, len(array) - i - 1):
             if array[j] > array[j+1]:
                 temp = array[j]
