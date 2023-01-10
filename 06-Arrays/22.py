@@ -3,4 +3,4 @@ array2 = [5,1,36]
 
 for i in array1:
     if i not in array2:
-        print(i)
+        print(i, end=" ")
