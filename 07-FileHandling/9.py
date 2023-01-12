@@ -1,6 +1,5 @@
 file = open("numbers.txt", "rt")
 sum_of_integers = 0
-
 for line in file:
     sum_of_integers += int(line)
 
