@@ -1,11 +1,27 @@
-countries = [
-    {"France": 67236432},
-    {"France": 67236432},
-    {"France": 67236432},
-    {"France": 67236432},
-    {"France": 67236432},
-]
+a=[{
+    'kraj': 'Polska',
+    "populacja": 38000000
+},
+{
+    'kraj': 'Czechy',
+    "populacja": 38746000
+},
+{
+    'kraj': 'Austria',
+    "populacja": 38354300
+},
+{
+    'kraj': 'Norwegia',
+    "populacja": 38076570
+},
+{
+    'kraj': 'Hiszpania',
+    "populacja": 24545600
+    }]
 
-for c in countries:
-    for k, v in c.items():
-        print(f"{k}: {v}")
+
+x=0
+while x<len(a):
+    for key,value in a[x].items():
+        print(key,':',value)
+    x+=1
