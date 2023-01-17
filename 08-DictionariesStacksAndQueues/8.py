@@ -10,9 +10,15 @@ person = {
 print(person)
 print(person["name"])
 print(person["hobby"])
-person["surname"] = "Nowak"
-person["married"] = False
-person["gender"] = "male"
-person["hobby"] += ["bicycle"]
-person["phone"]["work"] = 313131444
+person["surname"]="Nowak"
+print(person["surname"])
+person["married"]=False
+print(person["married"])
+person["gender"]="male"
+print(person['gender'])
+person["hobby"]+=["bicycle"]
+print(person["hobby"])
+person["phone"]["workphone"]='313131444'
+print(person["phone"])
+person["height"]=180
 print(person)

@@ -1,0 +1,6 @@
+f = open("16.txt")
+f_content = f.read()
+f.close()
+f = open("copy.txt", "wt")
+f.write(f_content)
+f.close()
